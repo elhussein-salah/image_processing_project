@@ -40,7 +40,7 @@ namespace image_processing
 
 
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Apply_Filter(object sender, EventArgs e)
         {
             if (undoStack.Count == 0)
                 undoStack.Push((Bitmap)pictureBox1.Image);
@@ -162,6 +162,51 @@ namespace image_processing
         }
 
         private void medianRadioBtn_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CERadioBtn_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SobelFilterRadioBtn_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjRadioButton21_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imagePath_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void rjRadioButton10_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjRadioButton17_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjRadioButton23_CheckedChanged(object sender, EventArgs e)
         {
 
         }
