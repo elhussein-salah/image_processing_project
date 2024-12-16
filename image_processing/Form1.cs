@@ -6,6 +6,7 @@ using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Emgu.CV.Cuda;
 namespace image_processing
 {
     public partial class Form1 : Form
@@ -23,17 +24,58 @@ namespace image_processing
 
             filters = new Dictionary<RadioButton, IImageFilter>
             {
+                //{ prewittFilterRadioBtn, new PrewittFilter() },
+                //{ LaplacianRadiobtn, new LaplacianFilter() },
+                //{ GrayToBinaryRediobtn, new GrayToBinaryFilter() },
+                //{ RgbToGrayRediobtn, new RgbToGrayFilter() },
+                //{ medianRadioBtn, new MedianFilter() },
+                //{ SobelFilterRadioBtn, new SobelFilter() },
+                //{ CERadioBtn, new ContrastStretchFilter() },
+                //{ HERadioBtn, new HistogramEqualizationFilter() },
+                //{ lightenRedioBtn, new LightenFilter() },
+                //{ darkenRadioBtn, new DarkenFilter() },
+                //{blurGaussianRadioButton,new GaussianFilter()},
+                //new
+                // Existing Filters
                 { prewittFilterRadioBtn, new PrewittFilter() },
-                { LaplacianRadiobtn, new LaplacianFilter() },
-                { GrayToBinaryRediobtn, new GrayToBinaryFilter() },
-                { RgbToGrayRediobtn, new RgbToGrayFilter() },
-                { medianRadioBtn, new MedianFilter() },
-                { SobelFilterRadioBtn, new SobelFilter() },
-                { CERadioBtn, new ContrastStretchFilter() },
-                { HERadioBtn, new HistogramEqualizationFilter() },
-                { lightenRedioBtn, new LightenFilter() },
+                { contrastStretchingRadioBtn, new ContrastStretchFilter() },
+                { laplacianFilterRadioBtn, new LaplacianFilter() },
+                { grayToBinaryRadioBtn, new GrayToBinaryFilter() },
+                { rgbToGrayRadioBtn, new RgbToGrayFilter() },
+                { gaussianFilterRadioBtn, new GaussianFilter() },
+                { sobelFilterRadioBtn, new SobelFilter() },
+                { histogramEqualizationRadioBtn, new HistogramEqualizationFilter() },
+                { lightenRadioBtn, new LightenFilter() },
                 { darkenRadioBtn, new DarkenFilter() },
-                {blurGaussianRadioButton,new GaussianFilter()}
+                { medianFilterRadioBtn, new MedianFilter() },
+                { meanFilterRadioBtn, new MeanFilter() },
+                { weightFilterRadioBtn, new WeightFilter() },
+                { pointDetectionRadioBtn, new PointDetectionFilter() },
+                { pointSharpeningRadioBtn, new PointSharpeningFilter() },
+                { lineSharpeningRadioBtn, new LineSharpeningFilter() },
+                { minFilterRadioBtn, new MinFilter() },
+                { uniformNoiseRadioBtn, new UniformNoiseFilter() },
+                { gaussianNoiseRadioBtn, new GaussianNoiseFilter() },
+
+                // New Filters (advanced)
+                { negativeRadioBtn, new NegativeFilter() },
+                //{ histogramRadioBtn, new HistogramFilter() },
+                { logTransformRadioBtn, new LogTransformFilter() },
+                { gammaCorrectionRadioBtn, new GammaCorrectionFilter() },
+                //{ correlationRadioBtn, new CorrelationFilter() },
+                { maxFilterRadioBtn, new MaxFilter() },
+                { fourierTransformRadioBtn, new FourierTransformFilter() },
+                { inverseFourierRadioBtn, new InverseFourierFilter() },
+                { idealLowPassRadioBtn, new IdealLowPassFilter() },
+                { idealHighPassRadioBtn, new IdealHighPassFilter() },
+                { butterWorthLowPassRadioBtn, new ButterWorthLowPassFilter() },
+                { butterWorthHighPassRadioBtn, new ButterWorthHighPassFilter() },
+                { gaussianLowPassRadioBtn, new GaussianLowPassFilter() },
+                { gaussianHighPassRadioBtn, new GaussianHighPassFilter() },
+                { saltPepperNoiseRadioBtn, new SaltPepperNoiseFilter() },
+                { rayleighNoiseRadioBtn, new RayleighNoiseFilter() },
+                { exponentialNoiseRadioBtn, new ExponentialNoiseFilter() },
+                { gammaNoiseRadioBtn, new GammaNoiseFilter() }
 
             };
         }
@@ -207,6 +249,11 @@ namespace image_processing
         }
 
         private void rjRadioButton23_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GrayToBinaryRediobtn_CheckedChanged(object sender, EventArgs e)
         {
 
         }

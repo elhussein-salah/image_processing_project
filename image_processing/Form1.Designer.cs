@@ -36,50 +36,50 @@
             button2 = new Button();
             button4 = new Button();
             groupBox1 = new GroupBox();
-            rjRadioButton22 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton23 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton24 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton25 = new CustomControls.RJControls.RJRadioButton();
+            button3 = new Button();
+            gammaNoiseRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            exponentialNoiseRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            uniformNoiseRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            gaussianNoiseRadioBtn = new CustomControls.RJControls.RJRadioButton();
             textBox1 = new TextBox();
-            rjRadioButton2 = new CustomControls.RJControls.RJRadioButton();
+            idealLowPassRadioBtn = new CustomControls.RJControls.RJRadioButton();
             imagePath = new TextBox();
             btnImport = new Button();
             button1 = new Button();
-            rjRadioButton4 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton3 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton1 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton16 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton15 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton14 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton13 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton11 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton18 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton19 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton6 = new CustomControls.RJControls.RJRadioButton();
+            butterWorthLowPassRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            idealHighPassRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            maxFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            gaussianLowPassRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            gaussianHighPassRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            saltPepperNoiseRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            inverseFourierRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            fourierTransformRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            pointSharpeningRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            lineSharpeningRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            gammaCorrectionRadioBtn = new CustomControls.RJControls.RJRadioButton();
             rjRadioButton12 = new CustomControls.RJControls.RJRadioButton();
             rjRadioButton5 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton9 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton8 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton7 = new CustomControls.RJControls.RJRadioButton();
-            lowPassRadioBtn = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton17 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton20 = new CustomControls.RJControls.RJRadioButton();
-            HERadioBtn = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton21 = new CustomControls.RJControls.RJRadioButton();
-            rjRadioButton10 = new CustomControls.RJControls.RJRadioButton();
-            lightenRedioBtn = new CustomControls.RJControls.RJRadioButton();
+            logTransformRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            histogramRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            negativeRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            weightFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            rayleighNoiseRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            minFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            histogramEqualizationRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            pointDetectionRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            butterWorthHighPassRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            lightenRadioBtn = new CustomControls.RJControls.RJRadioButton();
             darkenRadioBtn = new CustomControls.RJControls.RJRadioButton();
             prewittFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
-            RgbToGrayRediobtn = new CustomControls.RJControls.RJRadioButton();
-            CERadioBtn = new CustomControls.RJControls.RJRadioButton();
-            LaplacianRadiobtn = new CustomControls.RJControls.RJRadioButton();
-            GrayToBinaryRediobtn = new CustomControls.RJControls.RJRadioButton();
-            meanRadioBtn = new CustomControls.RJControls.RJRadioButton();
-            medianRadioBtn = new CustomControls.RJControls.RJRadioButton();
-            blurGaussianRadioButton = new CustomControls.RJControls.RJRadioButton();
-            SobelFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            rgbToGrayRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            contrastStretchingRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            laplacianFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            grayToBinaryRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            meanFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            medianFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            gaussianFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
+            sobelFilterRadioBtn = new CustomControls.RJControls.RJRadioButton();
             panel1 = new Panel();
-            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -144,50 +144,50 @@
             // 
             groupBox1.BackColor = Color.LavenderBlush;
             groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(rjRadioButton22);
+            groupBox1.Controls.Add(gammaNoiseRadioBtn);
             groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(rjRadioButton23);
+            groupBox1.Controls.Add(exponentialNoiseRadioBtn);
             groupBox1.Controls.Add(button4);
-            groupBox1.Controls.Add(rjRadioButton24);
-            groupBox1.Controls.Add(rjRadioButton25);
+            groupBox1.Controls.Add(uniformNoiseRadioBtn);
+            groupBox1.Controls.Add(gaussianNoiseRadioBtn);
             groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(rjRadioButton2);
+            groupBox1.Controls.Add(idealLowPassRadioBtn);
             groupBox1.Controls.Add(imagePath);
             groupBox1.Controls.Add(btnImport);
             groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(rjRadioButton4);
-            groupBox1.Controls.Add(rjRadioButton3);
-            groupBox1.Controls.Add(rjRadioButton1);
-            groupBox1.Controls.Add(rjRadioButton16);
-            groupBox1.Controls.Add(rjRadioButton15);
-            groupBox1.Controls.Add(rjRadioButton14);
-            groupBox1.Controls.Add(rjRadioButton13);
-            groupBox1.Controls.Add(rjRadioButton11);
-            groupBox1.Controls.Add(rjRadioButton18);
-            groupBox1.Controls.Add(rjRadioButton19);
-            groupBox1.Controls.Add(rjRadioButton6);
+            groupBox1.Controls.Add(butterWorthLowPassRadioBtn);
+            groupBox1.Controls.Add(idealHighPassRadioBtn);
+            groupBox1.Controls.Add(maxFilterRadioBtn);
+            groupBox1.Controls.Add(gaussianLowPassRadioBtn);
+            groupBox1.Controls.Add(gaussianHighPassRadioBtn);
+            groupBox1.Controls.Add(saltPepperNoiseRadioBtn);
+            groupBox1.Controls.Add(inverseFourierRadioBtn);
+            groupBox1.Controls.Add(fourierTransformRadioBtn);
+            groupBox1.Controls.Add(pointSharpeningRadioBtn);
+            groupBox1.Controls.Add(lineSharpeningRadioBtn);
+            groupBox1.Controls.Add(gammaCorrectionRadioBtn);
             groupBox1.Controls.Add(rjRadioButton12);
             groupBox1.Controls.Add(rjRadioButton5);
-            groupBox1.Controls.Add(rjRadioButton9);
-            groupBox1.Controls.Add(rjRadioButton8);
-            groupBox1.Controls.Add(rjRadioButton7);
-            groupBox1.Controls.Add(lowPassRadioBtn);
-            groupBox1.Controls.Add(rjRadioButton17);
-            groupBox1.Controls.Add(rjRadioButton20);
-            groupBox1.Controls.Add(HERadioBtn);
-            groupBox1.Controls.Add(rjRadioButton21);
-            groupBox1.Controls.Add(rjRadioButton10);
-            groupBox1.Controls.Add(lightenRedioBtn);
+            groupBox1.Controls.Add(logTransformRadioBtn);
+            groupBox1.Controls.Add(histogramRadioBtn);
+            groupBox1.Controls.Add(negativeRadioBtn);
+            groupBox1.Controls.Add(weightFilterRadioBtn);
+            groupBox1.Controls.Add(rayleighNoiseRadioBtn);
+            groupBox1.Controls.Add(minFilterRadioBtn);
+            groupBox1.Controls.Add(histogramEqualizationRadioBtn);
+            groupBox1.Controls.Add(pointDetectionRadioBtn);
+            groupBox1.Controls.Add(butterWorthHighPassRadioBtn);
+            groupBox1.Controls.Add(lightenRadioBtn);
             groupBox1.Controls.Add(darkenRadioBtn);
             groupBox1.Controls.Add(prewittFilterRadioBtn);
-            groupBox1.Controls.Add(RgbToGrayRediobtn);
-            groupBox1.Controls.Add(CERadioBtn);
-            groupBox1.Controls.Add(LaplacianRadiobtn);
-            groupBox1.Controls.Add(GrayToBinaryRediobtn);
-            groupBox1.Controls.Add(meanRadioBtn);
-            groupBox1.Controls.Add(medianRadioBtn);
-            groupBox1.Controls.Add(blurGaussianRadioButton);
-            groupBox1.Controls.Add(SobelFilterRadioBtn);
+            groupBox1.Controls.Add(rgbToGrayRadioBtn);
+            groupBox1.Controls.Add(contrastStretchingRadioBtn);
+            groupBox1.Controls.Add(laplacianFilterRadioBtn);
+            groupBox1.Controls.Add(grayToBinaryRadioBtn);
+            groupBox1.Controls.Add(meanFilterRadioBtn);
+            groupBox1.Controls.Add(medianFilterRadioBtn);
+            groupBox1.Controls.Add(gaussianFilterRadioBtn);
+            groupBox1.Controls.Add(sobelFilterRadioBtn);
             groupBox1.ForeColor = SystemColors.ActiveCaptionText;
             groupBox1.Location = new Point(3, -13);
             groupBox1.Name = "groupBox1";
@@ -195,74 +195,85 @@
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
             // 
-            // rjRadioButton22
+            // button3
             // 
-            rjRadioButton22.AutoSize = true;
-            rjRadioButton22.CheckedColor = Color.Purple;
-            rjRadioButton22.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton22.ForeColor = Color.Black;
-            rjRadioButton22.Location = new Point(346, 541);
-            rjRadioButton22.MinimumSize = new Size(0, 21);
-            rjRadioButton22.Name = "rjRadioButton22";
-            rjRadioButton22.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton22.Size = new Size(142, 26);
-            rjRadioButton22.TabIndex = 37;
-            rjRadioButton22.TabStop = true;
-            rjRadioButton22.Text = "Gamma_noise";
-            rjRadioButton22.UnCheckedColor = Color.Black;
-            rjRadioButton22.UseVisualStyleBackColor = true;
+            button3.Font = new Font("Stencil", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(1, 706);
+            button3.Name = "button3";
+            button3.Size = new Size(626, 55);
+            button3.TabIndex = 16;
+            button3.Text = "Apply Filter ";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += Apply_Filter;
             // 
-            // rjRadioButton23
+            // gammaNoiseRadioBtn
             // 
-            rjRadioButton23.AutoSize = true;
-            rjRadioButton23.CheckedColor = Color.Purple;
-            rjRadioButton23.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton23.ForeColor = Color.Black;
-            rjRadioButton23.Location = new Point(346, 518);
-            rjRadioButton23.MinimumSize = new Size(0, 21);
-            rjRadioButton23.Name = "rjRadioButton23";
-            rjRadioButton23.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton23.Size = new Size(174, 26);
-            rjRadioButton23.TabIndex = 34;
-            rjRadioButton23.TabStop = true;
-            rjRadioButton23.Text = "Exponential_noise";
-            rjRadioButton23.UnCheckedColor = Color.Black;
-            rjRadioButton23.UseVisualStyleBackColor = true;
-            rjRadioButton23.CheckedChanged += rjRadioButton23_CheckedChanged;
+            gammaNoiseRadioBtn.AutoSize = true;
+            gammaNoiseRadioBtn.CheckedColor = Color.Purple;
+            gammaNoiseRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            gammaNoiseRadioBtn.ForeColor = Color.Black;
+            gammaNoiseRadioBtn.Location = new Point(346, 541);
+            gammaNoiseRadioBtn.MinimumSize = new Size(0, 21);
+            gammaNoiseRadioBtn.Name = "gammaNoiseRadioBtn";
+            gammaNoiseRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            gammaNoiseRadioBtn.Size = new Size(142, 26);
+            gammaNoiseRadioBtn.TabIndex = 37;
+            gammaNoiseRadioBtn.TabStop = true;
+            gammaNoiseRadioBtn.Text = "Gamma_noise";
+            gammaNoiseRadioBtn.UnCheckedColor = Color.Black;
+            gammaNoiseRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton24
+            // exponentialNoiseRadioBtn
             // 
-            rjRadioButton24.AutoSize = true;
-            rjRadioButton24.CheckedColor = Color.Purple;
-            rjRadioButton24.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton24.ForeColor = Color.Black;
-            rjRadioButton24.Location = new Point(0, 493);
-            rjRadioButton24.MinimumSize = new Size(0, 21);
-            rjRadioButton24.Name = "rjRadioButton24";
-            rjRadioButton24.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton24.Size = new Size(146, 26);
-            rjRadioButton24.TabIndex = 36;
-            rjRadioButton24.TabStop = true;
-            rjRadioButton24.Text = "uniform_noise";
-            rjRadioButton24.UnCheckedColor = Color.Black;
-            rjRadioButton24.UseVisualStyleBackColor = true;
+            exponentialNoiseRadioBtn.AutoSize = true;
+            exponentialNoiseRadioBtn.CheckedColor = Color.Purple;
+            exponentialNoiseRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            exponentialNoiseRadioBtn.ForeColor = Color.Black;
+            exponentialNoiseRadioBtn.Location = new Point(346, 518);
+            exponentialNoiseRadioBtn.MinimumSize = new Size(0, 21);
+            exponentialNoiseRadioBtn.Name = "exponentialNoiseRadioBtn";
+            exponentialNoiseRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            exponentialNoiseRadioBtn.Size = new Size(174, 26);
+            exponentialNoiseRadioBtn.TabIndex = 34;
+            exponentialNoiseRadioBtn.TabStop = true;
+            exponentialNoiseRadioBtn.Text = "Exponential_noise";
+            exponentialNoiseRadioBtn.UnCheckedColor = Color.Black;
+            exponentialNoiseRadioBtn.UseVisualStyleBackColor = true;
+            exponentialNoiseRadioBtn.CheckedChanged += rjRadioButton23_CheckedChanged;
             // 
-            // rjRadioButton25
+            // uniformNoiseRadioBtn
             // 
-            rjRadioButton25.AutoSize = true;
-            rjRadioButton25.CheckedColor = Color.Purple;
-            rjRadioButton25.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton25.ForeColor = Color.Black;
-            rjRadioButton25.Location = new Point(0, 525);
-            rjRadioButton25.MinimumSize = new Size(0, 21);
-            rjRadioButton25.Name = "rjRadioButton25";
-            rjRadioButton25.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton25.Size = new Size(149, 26);
-            rjRadioButton25.TabIndex = 35;
-            rjRadioButton25.TabStop = true;
-            rjRadioButton25.Text = "gaussian_noise";
-            rjRadioButton25.UnCheckedColor = Color.Black;
-            rjRadioButton25.UseVisualStyleBackColor = true;
+            uniformNoiseRadioBtn.AutoSize = true;
+            uniformNoiseRadioBtn.CheckedColor = Color.Purple;
+            uniformNoiseRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            uniformNoiseRadioBtn.ForeColor = Color.Black;
+            uniformNoiseRadioBtn.Location = new Point(0, 493);
+            uniformNoiseRadioBtn.MinimumSize = new Size(0, 21);
+            uniformNoiseRadioBtn.Name = "uniformNoiseRadioBtn";
+            uniformNoiseRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            uniformNoiseRadioBtn.Size = new Size(146, 26);
+            uniformNoiseRadioBtn.TabIndex = 36;
+            uniformNoiseRadioBtn.TabStop = true;
+            uniformNoiseRadioBtn.Text = "uniform_noise";
+            uniformNoiseRadioBtn.UnCheckedColor = Color.Black;
+            uniformNoiseRadioBtn.UseVisualStyleBackColor = true;
+            // 
+            // gaussianNoiseRadioBtn
+            // 
+            gaussianNoiseRadioBtn.AutoSize = true;
+            gaussianNoiseRadioBtn.CheckedColor = Color.Purple;
+            gaussianNoiseRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            gaussianNoiseRadioBtn.ForeColor = Color.Black;
+            gaussianNoiseRadioBtn.Location = new Point(0, 525);
+            gaussianNoiseRadioBtn.MinimumSize = new Size(0, 21);
+            gaussianNoiseRadioBtn.Name = "gaussianNoiseRadioBtn";
+            gaussianNoiseRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            gaussianNoiseRadioBtn.Size = new Size(149, 26);
+            gaussianNoiseRadioBtn.TabIndex = 35;
+            gaussianNoiseRadioBtn.TabStop = true;
+            gaussianNoiseRadioBtn.Text = "gaussian_noise";
+            gaussianNoiseRadioBtn.UnCheckedColor = Color.Black;
+            gaussianNoiseRadioBtn.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -271,22 +282,22 @@
             textBox1.Size = new Size(313, 23);
             textBox1.TabIndex = 13;
             // 
-            // rjRadioButton2
+            // idealLowPassRadioBtn
             // 
-            rjRadioButton2.AutoSize = true;
-            rjRadioButton2.CheckedColor = Color.Purple;
-            rjRadioButton2.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton2.ForeColor = Color.Black;
-            rjRadioButton2.Location = new Point(346, 307);
-            rjRadioButton2.MinimumSize = new Size(0, 21);
-            rjRadioButton2.Name = "rjRadioButton2";
-            rjRadioButton2.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton2.Size = new Size(197, 26);
-            rjRadioButton2.TabIndex = 24;
-            rjRadioButton2.TabStop = true;
-            rjRadioButton2.Text = "Ideal Low Pass Filter";
-            rjRadioButton2.UnCheckedColor = Color.Black;
-            rjRadioButton2.UseVisualStyleBackColor = true;
+            idealLowPassRadioBtn.AutoSize = true;
+            idealLowPassRadioBtn.CheckedColor = Color.Purple;
+            idealLowPassRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            idealLowPassRadioBtn.ForeColor = Color.Black;
+            idealLowPassRadioBtn.Location = new Point(346, 307);
+            idealLowPassRadioBtn.MinimumSize = new Size(0, 21);
+            idealLowPassRadioBtn.Name = "idealLowPassRadioBtn";
+            idealLowPassRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            idealLowPassRadioBtn.Size = new Size(197, 26);
+            idealLowPassRadioBtn.TabIndex = 24;
+            idealLowPassRadioBtn.TabStop = true;
+            idealLowPassRadioBtn.Text = "Ideal Low Pass Filter";
+            idealLowPassRadioBtn.UnCheckedColor = Color.Black;
+            idealLowPassRadioBtn.UseVisualStyleBackColor = true;
             // 
             // imagePath
             // 
@@ -318,192 +329,192 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += exportBtn_Click;
             // 
-            // rjRadioButton4
+            // butterWorthLowPassRadioBtn
             // 
-            rjRadioButton4.AutoSize = true;
-            rjRadioButton4.CheckedColor = Color.Purple;
-            rjRadioButton4.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton4.ForeColor = Color.Black;
-            rjRadioButton4.Location = new Point(346, 369);
-            rjRadioButton4.MinimumSize = new Size(0, 21);
-            rjRadioButton4.Name = "rjRadioButton4";
-            rjRadioButton4.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton4.Size = new Size(261, 26);
-            rjRadioButton4.TabIndex = 22;
-            rjRadioButton4.TabStop = true;
-            rjRadioButton4.Text = "Butter Worth Low Pass Filter";
-            rjRadioButton4.UnCheckedColor = Color.Black;
-            rjRadioButton4.UseVisualStyleBackColor = true;
+            butterWorthLowPassRadioBtn.AutoSize = true;
+            butterWorthLowPassRadioBtn.CheckedColor = Color.Purple;
+            butterWorthLowPassRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            butterWorthLowPassRadioBtn.ForeColor = Color.Black;
+            butterWorthLowPassRadioBtn.Location = new Point(346, 369);
+            butterWorthLowPassRadioBtn.MinimumSize = new Size(0, 21);
+            butterWorthLowPassRadioBtn.Name = "butterWorthLowPassRadioBtn";
+            butterWorthLowPassRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            butterWorthLowPassRadioBtn.Size = new Size(261, 26);
+            butterWorthLowPassRadioBtn.TabIndex = 22;
+            butterWorthLowPassRadioBtn.TabStop = true;
+            butterWorthLowPassRadioBtn.Text = "Butter Worth Low Pass Filter";
+            butterWorthLowPassRadioBtn.UnCheckedColor = Color.Black;
+            butterWorthLowPassRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton3
+            // idealHighPassRadioBtn
             // 
-            rjRadioButton3.AutoSize = true;
-            rjRadioButton3.CheckedColor = Color.Purple;
-            rjRadioButton3.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton3.ForeColor = Color.Black;
-            rjRadioButton3.Location = new Point(346, 338);
-            rjRadioButton3.MinimumSize = new Size(0, 21);
-            rjRadioButton3.Name = "rjRadioButton3";
-            rjRadioButton3.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton3.Size = new Size(202, 26);
-            rjRadioButton3.TabIndex = 23;
-            rjRadioButton3.TabStop = true;
-            rjRadioButton3.Text = "Ideal High Pass Filter";
-            rjRadioButton3.UnCheckedColor = Color.Black;
-            rjRadioButton3.UseVisualStyleBackColor = true;
+            idealHighPassRadioBtn.AutoSize = true;
+            idealHighPassRadioBtn.CheckedColor = Color.Purple;
+            idealHighPassRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            idealHighPassRadioBtn.ForeColor = Color.Black;
+            idealHighPassRadioBtn.Location = new Point(346, 338);
+            idealHighPassRadioBtn.MinimumSize = new Size(0, 21);
+            idealHighPassRadioBtn.Name = "idealHighPassRadioBtn";
+            idealHighPassRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            idealHighPassRadioBtn.Size = new Size(202, 26);
+            idealHighPassRadioBtn.TabIndex = 23;
+            idealHighPassRadioBtn.TabStop = true;
+            idealHighPassRadioBtn.Text = "Ideal High Pass Filter";
+            idealHighPassRadioBtn.UnCheckedColor = Color.Black;
+            idealHighPassRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton1
+            // maxFilterRadioBtn
             // 
-            rjRadioButton1.AutoSize = true;
-            rjRadioButton1.CheckedColor = Color.Purple;
-            rjRadioButton1.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton1.ForeColor = Color.Black;
-            rjRadioButton1.Location = new Point(346, 209);
-            rjRadioButton1.MinimumSize = new Size(0, 21);
-            rjRadioButton1.Name = "rjRadioButton1";
-            rjRadioButton1.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton1.Size = new Size(118, 26);
-            rjRadioButton1.TabIndex = 25;
-            rjRadioButton1.TabStop = true;
-            rjRadioButton1.Text = "Max Filter";
-            rjRadioButton1.UnCheckedColor = Color.Black;
-            rjRadioButton1.UseVisualStyleBackColor = true;
+            maxFilterRadioBtn.AutoSize = true;
+            maxFilterRadioBtn.CheckedColor = Color.Purple;
+            maxFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            maxFilterRadioBtn.ForeColor = Color.Black;
+            maxFilterRadioBtn.Location = new Point(346, 209);
+            maxFilterRadioBtn.MinimumSize = new Size(0, 21);
+            maxFilterRadioBtn.Name = "maxFilterRadioBtn";
+            maxFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            maxFilterRadioBtn.Size = new Size(118, 26);
+            maxFilterRadioBtn.TabIndex = 25;
+            maxFilterRadioBtn.TabStop = true;
+            maxFilterRadioBtn.Text = "Max Filter";
+            maxFilterRadioBtn.UnCheckedColor = Color.Black;
+            maxFilterRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton16
+            // gaussianLowPassRadioBtn
             // 
-            rjRadioButton16.AutoSize = true;
-            rjRadioButton16.CheckedColor = Color.Purple;
-            rjRadioButton16.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton16.ForeColor = Color.Black;
-            rjRadioButton16.Location = new Point(346, 422);
-            rjRadioButton16.MinimumSize = new Size(0, 21);
-            rjRadioButton16.Name = "rjRadioButton16";
-            rjRadioButton16.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton16.Size = new Size(226, 26);
-            rjRadioButton16.TabIndex = 27;
-            rjRadioButton16.TabStop = true;
-            rjRadioButton16.Text = "Gaussian Low Pass Filter";
-            rjRadioButton16.UnCheckedColor = Color.Black;
-            rjRadioButton16.UseVisualStyleBackColor = true;
+            gaussianLowPassRadioBtn.AutoSize = true;
+            gaussianLowPassRadioBtn.CheckedColor = Color.Purple;
+            gaussianLowPassRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            gaussianLowPassRadioBtn.ForeColor = Color.Black;
+            gaussianLowPassRadioBtn.Location = new Point(346, 422);
+            gaussianLowPassRadioBtn.MinimumSize = new Size(0, 21);
+            gaussianLowPassRadioBtn.Name = "gaussianLowPassRadioBtn";
+            gaussianLowPassRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            gaussianLowPassRadioBtn.Size = new Size(226, 26);
+            gaussianLowPassRadioBtn.TabIndex = 27;
+            gaussianLowPassRadioBtn.TabStop = true;
+            gaussianLowPassRadioBtn.Text = "Gaussian Low Pass Filter";
+            gaussianLowPassRadioBtn.UnCheckedColor = Color.Black;
+            gaussianLowPassRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton15
+            // gaussianHighPassRadioBtn
             // 
-            rjRadioButton15.AutoSize = true;
-            rjRadioButton15.CheckedColor = Color.Purple;
-            rjRadioButton15.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton15.ForeColor = Color.Black;
-            rjRadioButton15.Location = new Point(346, 444);
-            rjRadioButton15.MinimumSize = new Size(0, 21);
-            rjRadioButton15.Name = "rjRadioButton15";
-            rjRadioButton15.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton15.Size = new Size(231, 26);
-            rjRadioButton15.TabIndex = 28;
-            rjRadioButton15.TabStop = true;
-            rjRadioButton15.Text = "Gaussian High Pass Filter";
-            rjRadioButton15.UnCheckedColor = Color.Black;
-            rjRadioButton15.UseVisualStyleBackColor = true;
+            gaussianHighPassRadioBtn.AutoSize = true;
+            gaussianHighPassRadioBtn.CheckedColor = Color.Purple;
+            gaussianHighPassRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            gaussianHighPassRadioBtn.ForeColor = Color.Black;
+            gaussianHighPassRadioBtn.Location = new Point(346, 444);
+            gaussianHighPassRadioBtn.MinimumSize = new Size(0, 21);
+            gaussianHighPassRadioBtn.Name = "gaussianHighPassRadioBtn";
+            gaussianHighPassRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            gaussianHighPassRadioBtn.Size = new Size(231, 26);
+            gaussianHighPassRadioBtn.TabIndex = 28;
+            gaussianHighPassRadioBtn.TabStop = true;
+            gaussianHighPassRadioBtn.Text = "Gaussian High Pass Filter";
+            gaussianHighPassRadioBtn.UnCheckedColor = Color.Black;
+            gaussianHighPassRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton14
+            // saltPepperNoiseRadioBtn
             // 
-            rjRadioButton14.AutoSize = true;
-            rjRadioButton14.CheckedColor = Color.Purple;
-            rjRadioButton14.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton14.ForeColor = Color.Black;
-            rjRadioButton14.Location = new Point(346, 467);
-            rjRadioButton14.MinimumSize = new Size(0, 21);
-            rjRadioButton14.Name = "rjRadioButton14";
-            rjRadioButton14.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton14.Size = new Size(125, 26);
-            rjRadioButton14.TabIndex = 29;
-            rjRadioButton14.TabStop = true;
-            rjRadioButton14.Text = "salt & pepper";
-            rjRadioButton14.UnCheckedColor = Color.Black;
-            rjRadioButton14.UseVisualStyleBackColor = true;
+            saltPepperNoiseRadioBtn.AutoSize = true;
+            saltPepperNoiseRadioBtn.CheckedColor = Color.Purple;
+            saltPepperNoiseRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            saltPepperNoiseRadioBtn.ForeColor = Color.Black;
+            saltPepperNoiseRadioBtn.Location = new Point(346, 467);
+            saltPepperNoiseRadioBtn.MinimumSize = new Size(0, 21);
+            saltPepperNoiseRadioBtn.Name = "saltPepperNoiseRadioBtn";
+            saltPepperNoiseRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            saltPepperNoiseRadioBtn.Size = new Size(125, 26);
+            saltPepperNoiseRadioBtn.TabIndex = 29;
+            saltPepperNoiseRadioBtn.TabStop = true;
+            saltPepperNoiseRadioBtn.Text = "salt & pepper";
+            saltPepperNoiseRadioBtn.UnCheckedColor = Color.Black;
+            saltPepperNoiseRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton13
+            // inverseFourierRadioBtn
             // 
-            rjRadioButton13.AutoSize = true;
-            rjRadioButton13.CheckedColor = Color.Purple;
-            rjRadioButton13.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton13.ForeColor = Color.Black;
-            rjRadioButton13.Location = new Point(346, 271);
-            rjRadioButton13.MinimumSize = new Size(0, 21);
-            rjRadioButton13.Name = "rjRadioButton13";
-            rjRadioButton13.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton13.Size = new Size(236, 26);
-            rjRadioButton13.TabIndex = 10;
-            rjRadioButton13.TabStop = true;
-            rjRadioButton13.Text = "Inverse Fourier Transform";
-            rjRadioButton13.UnCheckedColor = Color.Black;
-            rjRadioButton13.UseVisualStyleBackColor = true;
+            inverseFourierRadioBtn.AutoSize = true;
+            inverseFourierRadioBtn.CheckedColor = Color.Purple;
+            inverseFourierRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            inverseFourierRadioBtn.ForeColor = Color.Black;
+            inverseFourierRadioBtn.Location = new Point(346, 271);
+            inverseFourierRadioBtn.MinimumSize = new Size(0, 21);
+            inverseFourierRadioBtn.Name = "inverseFourierRadioBtn";
+            inverseFourierRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            inverseFourierRadioBtn.Size = new Size(236, 26);
+            inverseFourierRadioBtn.TabIndex = 10;
+            inverseFourierRadioBtn.TabStop = true;
+            inverseFourierRadioBtn.Text = "Inverse Fourier Transform";
+            inverseFourierRadioBtn.UnCheckedColor = Color.Black;
+            inverseFourierRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton11
+            // fourierTransformRadioBtn
             // 
-            rjRadioButton11.AutoSize = true;
-            rjRadioButton11.CheckedColor = Color.Purple;
-            rjRadioButton11.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton11.ForeColor = Color.Black;
-            rjRadioButton11.Location = new Point(346, 240);
-            rjRadioButton11.MinimumSize = new Size(0, 21);
-            rjRadioButton11.Name = "rjRadioButton11";
-            rjRadioButton11.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton11.Size = new Size(177, 26);
-            rjRadioButton11.TabIndex = 12;
-            rjRadioButton11.TabStop = true;
-            rjRadioButton11.Text = "Fourier Transform";
-            rjRadioButton11.UnCheckedColor = Color.Black;
-            rjRadioButton11.UseVisualStyleBackColor = true;
+            fourierTransformRadioBtn.AutoSize = true;
+            fourierTransformRadioBtn.CheckedColor = Color.Purple;
+            fourierTransformRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            fourierTransformRadioBtn.ForeColor = Color.Black;
+            fourierTransformRadioBtn.Location = new Point(346, 240);
+            fourierTransformRadioBtn.MinimumSize = new Size(0, 21);
+            fourierTransformRadioBtn.Name = "fourierTransformRadioBtn";
+            fourierTransformRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            fourierTransformRadioBtn.Size = new Size(177, 26);
+            fourierTransformRadioBtn.TabIndex = 12;
+            fourierTransformRadioBtn.TabStop = true;
+            fourierTransformRadioBtn.Text = "Fourier Transform";
+            fourierTransformRadioBtn.UnCheckedColor = Color.Black;
+            fourierTransformRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton18
+            // pointSharpeningRadioBtn
             // 
-            rjRadioButton18.AutoSize = true;
-            rjRadioButton18.CheckedColor = Color.Purple;
-            rjRadioButton18.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton18.ForeColor = Color.Black;
-            rjRadioButton18.Location = new Point(5, 397);
-            rjRadioButton18.MinimumSize = new Size(0, 21);
-            rjRadioButton18.Name = "rjRadioButton18";
-            rjRadioButton18.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton18.Size = new Size(166, 26);
-            rjRadioButton18.TabIndex = 33;
-            rjRadioButton18.TabStop = true;
-            rjRadioButton18.Text = "Point Sharpening";
-            rjRadioButton18.UnCheckedColor = Color.Black;
-            rjRadioButton18.UseVisualStyleBackColor = true;
+            pointSharpeningRadioBtn.AutoSize = true;
+            pointSharpeningRadioBtn.CheckedColor = Color.Purple;
+            pointSharpeningRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            pointSharpeningRadioBtn.ForeColor = Color.Black;
+            pointSharpeningRadioBtn.Location = new Point(5, 397);
+            pointSharpeningRadioBtn.MinimumSize = new Size(0, 21);
+            pointSharpeningRadioBtn.Name = "pointSharpeningRadioBtn";
+            pointSharpeningRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            pointSharpeningRadioBtn.Size = new Size(166, 26);
+            pointSharpeningRadioBtn.TabIndex = 33;
+            pointSharpeningRadioBtn.TabStop = true;
+            pointSharpeningRadioBtn.Text = "Point Sharpening";
+            pointSharpeningRadioBtn.UnCheckedColor = Color.Black;
+            pointSharpeningRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton19
+            // lineSharpeningRadioBtn
             // 
-            rjRadioButton19.AutoSize = true;
-            rjRadioButton19.CheckedColor = Color.Purple;
-            rjRadioButton19.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton19.ForeColor = Color.Black;
-            rjRadioButton19.Location = new Point(4, 429);
-            rjRadioButton19.MinimumSize = new Size(0, 21);
-            rjRadioButton19.Name = "rjRadioButton19";
-            rjRadioButton19.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton19.Size = new Size(157, 26);
-            rjRadioButton19.TabIndex = 32;
-            rjRadioButton19.TabStop = true;
-            rjRadioButton19.Text = "Line sharpening";
-            rjRadioButton19.UnCheckedColor = Color.Black;
-            rjRadioButton19.UseVisualStyleBackColor = true;
+            lineSharpeningRadioBtn.AutoSize = true;
+            lineSharpeningRadioBtn.CheckedColor = Color.Purple;
+            lineSharpeningRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            lineSharpeningRadioBtn.ForeColor = Color.Black;
+            lineSharpeningRadioBtn.Location = new Point(4, 429);
+            lineSharpeningRadioBtn.MinimumSize = new Size(0, 21);
+            lineSharpeningRadioBtn.Name = "lineSharpeningRadioBtn";
+            lineSharpeningRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            lineSharpeningRadioBtn.Size = new Size(157, 26);
+            lineSharpeningRadioBtn.TabIndex = 32;
+            lineSharpeningRadioBtn.TabStop = true;
+            lineSharpeningRadioBtn.Text = "Line sharpening";
+            lineSharpeningRadioBtn.UnCheckedColor = Color.Black;
+            lineSharpeningRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton6
+            // gammaCorrectionRadioBtn
             // 
-            rjRadioButton6.AutoSize = true;
-            rjRadioButton6.CheckedColor = Color.Purple;
-            rjRadioButton6.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton6.ForeColor = Color.Black;
-            rjRadioButton6.Location = new Point(346, 135);
-            rjRadioButton6.MinimumSize = new Size(0, 21);
-            rjRadioButton6.Name = "rjRadioButton6";
-            rjRadioButton6.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton6.Size = new Size(179, 26);
-            rjRadioButton6.TabIndex = 18;
-            rjRadioButton6.TabStop = true;
-            rjRadioButton6.Text = "Gamma Correction";
-            rjRadioButton6.UnCheckedColor = Color.Black;
-            rjRadioButton6.UseVisualStyleBackColor = true;
+            gammaCorrectionRadioBtn.AutoSize = true;
+            gammaCorrectionRadioBtn.CheckedColor = Color.Purple;
+            gammaCorrectionRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            gammaCorrectionRadioBtn.ForeColor = Color.Black;
+            gammaCorrectionRadioBtn.Location = new Point(346, 135);
+            gammaCorrectionRadioBtn.MinimumSize = new Size(0, 21);
+            gammaCorrectionRadioBtn.Name = "gammaCorrectionRadioBtn";
+            gammaCorrectionRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            gammaCorrectionRadioBtn.Size = new Size(179, 26);
+            gammaCorrectionRadioBtn.TabIndex = 18;
+            gammaCorrectionRadioBtn.TabStop = true;
+            gammaCorrectionRadioBtn.Text = "Gamma Correction";
+            gammaCorrectionRadioBtn.UnCheckedColor = Color.Black;
+            gammaCorrectionRadioBtn.UseVisualStyleBackColor = true;
             // 
             // rjRadioButton12
             // 
@@ -541,178 +552,178 @@
             rjRadioButton5.UnCheckedColor = Color.Black;
             rjRadioButton5.UseVisualStyleBackColor = false;
             // 
-            // rjRadioButton9
+            // logTransformRadioBtn
             // 
-            rjRadioButton9.AutoSize = true;
-            rjRadioButton9.CheckedColor = Color.Purple;
-            rjRadioButton9.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton9.ForeColor = Color.Black;
-            rjRadioButton9.Location = new Point(346, 109);
-            rjRadioButton9.MinimumSize = new Size(0, 21);
-            rjRadioButton9.Name = "rjRadioButton9";
-            rjRadioButton9.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton9.Size = new Size(73, 26);
-            rjRadioButton9.TabIndex = 14;
-            rjRadioButton9.TabStop = true;
-            rjRadioButton9.Text = "LOG";
-            rjRadioButton9.UnCheckedColor = Color.Black;
-            rjRadioButton9.UseVisualStyleBackColor = true;
+            logTransformRadioBtn.AutoSize = true;
+            logTransformRadioBtn.CheckedColor = Color.Purple;
+            logTransformRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            logTransformRadioBtn.ForeColor = Color.Black;
+            logTransformRadioBtn.Location = new Point(346, 109);
+            logTransformRadioBtn.MinimumSize = new Size(0, 21);
+            logTransformRadioBtn.Name = "logTransformRadioBtn";
+            logTransformRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            logTransformRadioBtn.Size = new Size(73, 26);
+            logTransformRadioBtn.TabIndex = 14;
+            logTransformRadioBtn.TabStop = true;
+            logTransformRadioBtn.Text = "LOG";
+            logTransformRadioBtn.UnCheckedColor = Color.Black;
+            logTransformRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton8
+            // histogramRadioBtn
             // 
-            rjRadioButton8.AutoSize = true;
-            rjRadioButton8.CheckedColor = Color.Purple;
-            rjRadioButton8.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton8.ForeColor = Color.Black;
-            rjRadioButton8.Location = new Point(346, 78);
-            rjRadioButton8.MinimumSize = new Size(0, 21);
-            rjRadioButton8.Name = "rjRadioButton8";
-            rjRadioButton8.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton8.Size = new Size(117, 26);
-            rjRadioButton8.TabIndex = 15;
-            rjRadioButton8.TabStop = true;
-            rjRadioButton8.Text = "Histogram";
-            rjRadioButton8.UnCheckedColor = Color.Black;
-            rjRadioButton8.UseVisualStyleBackColor = true;
+            histogramRadioBtn.AutoSize = true;
+            histogramRadioBtn.CheckedColor = Color.Purple;
+            histogramRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            histogramRadioBtn.ForeColor = Color.Black;
+            histogramRadioBtn.Location = new Point(346, 78);
+            histogramRadioBtn.MinimumSize = new Size(0, 21);
+            histogramRadioBtn.Name = "histogramRadioBtn";
+            histogramRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            histogramRadioBtn.Size = new Size(117, 26);
+            histogramRadioBtn.TabIndex = 15;
+            histogramRadioBtn.TabStop = true;
+            histogramRadioBtn.Text = "Histogram";
+            histogramRadioBtn.UnCheckedColor = Color.Black;
+            histogramRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton7
+            // negativeRadioBtn
             // 
-            rjRadioButton7.AutoSize = true;
-            rjRadioButton7.CheckedColor = Color.Purple;
-            rjRadioButton7.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton7.ForeColor = Color.Black;
-            rjRadioButton7.Location = new Point(346, 47);
-            rjRadioButton7.MinimumSize = new Size(0, 21);
-            rjRadioButton7.Name = "rjRadioButton7";
-            rjRadioButton7.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton7.Size = new Size(105, 26);
-            rjRadioButton7.TabIndex = 16;
-            rjRadioButton7.TabStop = true;
-            rjRadioButton7.Text = "Negative";
-            rjRadioButton7.UnCheckedColor = Color.Black;
-            rjRadioButton7.UseVisualStyleBackColor = true;
+            negativeRadioBtn.AutoSize = true;
+            negativeRadioBtn.CheckedColor = Color.Purple;
+            negativeRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            negativeRadioBtn.ForeColor = Color.Black;
+            negativeRadioBtn.Location = new Point(346, 47);
+            negativeRadioBtn.MinimumSize = new Size(0, 21);
+            negativeRadioBtn.Name = "negativeRadioBtn";
+            negativeRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            negativeRadioBtn.Size = new Size(105, 26);
+            negativeRadioBtn.TabIndex = 16;
+            negativeRadioBtn.TabStop = true;
+            negativeRadioBtn.Text = "Negative";
+            negativeRadioBtn.UnCheckedColor = Color.Black;
+            negativeRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // lowPassRadioBtn
+            // weightFilterRadioBtn
             // 
-            lowPassRadioBtn.AutoSize = true;
-            lowPassRadioBtn.CheckedColor = Color.Purple;
-            lowPassRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            lowPassRadioBtn.ForeColor = Color.Black;
-            lowPassRadioBtn.Location = new Point(6, 341);
-            lowPassRadioBtn.MinimumSize = new Size(0, 21);
-            lowPassRadioBtn.Name = "lowPassRadioBtn";
-            lowPassRadioBtn.Padding = new Padding(10, 0, 0, 0);
-            lowPassRadioBtn.Size = new Size(136, 26);
-            lowPassRadioBtn.TabIndex = 25;
-            lowPassRadioBtn.TabStop = true;
-            lowPassRadioBtn.Text = "Weight filter";
-            lowPassRadioBtn.UnCheckedColor = Color.Black;
-            lowPassRadioBtn.UseVisualStyleBackColor = true;
+            weightFilterRadioBtn.AutoSize = true;
+            weightFilterRadioBtn.CheckedColor = Color.Purple;
+            weightFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            weightFilterRadioBtn.ForeColor = Color.Black;
+            weightFilterRadioBtn.Location = new Point(6, 341);
+            weightFilterRadioBtn.MinimumSize = new Size(0, 21);
+            weightFilterRadioBtn.Name = "weightFilterRadioBtn";
+            weightFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            weightFilterRadioBtn.Size = new Size(136, 26);
+            weightFilterRadioBtn.TabIndex = 25;
+            weightFilterRadioBtn.TabStop = true;
+            weightFilterRadioBtn.Text = "Weight filter";
+            weightFilterRadioBtn.UnCheckedColor = Color.Black;
+            weightFilterRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton17
+            // rayleighNoiseRadioBtn
             // 
-            rjRadioButton17.AutoSize = true;
-            rjRadioButton17.CheckedColor = Color.Purple;
-            rjRadioButton17.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton17.ForeColor = Color.Black;
-            rjRadioButton17.Location = new Point(346, 492);
-            rjRadioButton17.MinimumSize = new Size(0, 21);
-            rjRadioButton17.Name = "rjRadioButton17";
-            rjRadioButton17.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton17.Size = new Size(148, 26);
-            rjRadioButton17.TabIndex = 26;
-            rjRadioButton17.TabStop = true;
-            rjRadioButton17.Text = "rayleigh_noise";
-            rjRadioButton17.UnCheckedColor = Color.Black;
-            rjRadioButton17.UseVisualStyleBackColor = true;
-            rjRadioButton17.CheckedChanged += rjRadioButton17_CheckedChanged;
+            rayleighNoiseRadioBtn.AutoSize = true;
+            rayleighNoiseRadioBtn.CheckedColor = Color.Purple;
+            rayleighNoiseRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            rayleighNoiseRadioBtn.ForeColor = Color.Black;
+            rayleighNoiseRadioBtn.Location = new Point(346, 492);
+            rayleighNoiseRadioBtn.MinimumSize = new Size(0, 21);
+            rayleighNoiseRadioBtn.Name = "rayleighNoiseRadioBtn";
+            rayleighNoiseRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            rayleighNoiseRadioBtn.Size = new Size(148, 26);
+            rayleighNoiseRadioBtn.TabIndex = 26;
+            rayleighNoiseRadioBtn.TabStop = true;
+            rayleighNoiseRadioBtn.Text = "rayleigh_noise";
+            rayleighNoiseRadioBtn.UnCheckedColor = Color.Black;
+            rayleighNoiseRadioBtn.UseVisualStyleBackColor = true;
+            rayleighNoiseRadioBtn.CheckedChanged += rjRadioButton17_CheckedChanged;
             // 
-            // rjRadioButton20
+            // minFilterRadioBtn
             // 
-            rjRadioButton20.AutoSize = true;
-            rjRadioButton20.CheckedColor = Color.Purple;
-            rjRadioButton20.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton20.ForeColor = Color.Black;
-            rjRadioButton20.Location = new Point(4, 461);
-            rjRadioButton20.MinimumSize = new Size(0, 21);
-            rjRadioButton20.Name = "rjRadioButton20";
-            rjRadioButton20.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton20.Size = new Size(117, 26);
-            rjRadioButton20.TabIndex = 31;
-            rjRadioButton20.TabStop = true;
-            rjRadioButton20.Text = "Min Filter";
-            rjRadioButton20.UnCheckedColor = Color.Black;
-            rjRadioButton20.UseVisualStyleBackColor = true;
+            minFilterRadioBtn.AutoSize = true;
+            minFilterRadioBtn.CheckedColor = Color.Purple;
+            minFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            minFilterRadioBtn.ForeColor = Color.Black;
+            minFilterRadioBtn.Location = new Point(4, 461);
+            minFilterRadioBtn.MinimumSize = new Size(0, 21);
+            minFilterRadioBtn.Name = "minFilterRadioBtn";
+            minFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            minFilterRadioBtn.Size = new Size(117, 26);
+            minFilterRadioBtn.TabIndex = 31;
+            minFilterRadioBtn.TabStop = true;
+            minFilterRadioBtn.Text = "Min Filter";
+            minFilterRadioBtn.UnCheckedColor = Color.Black;
+            minFilterRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // HERadioBtn
+            // histogramEqualizationRadioBtn
             // 
-            HERadioBtn.AutoSize = true;
-            HERadioBtn.CheckedColor = Color.Purple;
-            HERadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            HERadioBtn.ForeColor = Color.Black;
-            HERadioBtn.Location = new Point(5, 212);
-            HERadioBtn.MinimumSize = new Size(0, 21);
-            HERadioBtn.Name = "HERadioBtn";
-            HERadioBtn.Padding = new Padding(10, 0, 0, 0);
-            HERadioBtn.Size = new Size(216, 26);
-            HERadioBtn.TabIndex = 24;
-            HERadioBtn.TabStop = true;
-            HERadioBtn.Text = "Histogram Equalization";
-            HERadioBtn.UnCheckedColor = Color.Black;
-            HERadioBtn.UseVisualStyleBackColor = true;
+            histogramEqualizationRadioBtn.AutoSize = true;
+            histogramEqualizationRadioBtn.CheckedColor = Color.Purple;
+            histogramEqualizationRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            histogramEqualizationRadioBtn.ForeColor = Color.Black;
+            histogramEqualizationRadioBtn.Location = new Point(5, 212);
+            histogramEqualizationRadioBtn.MinimumSize = new Size(0, 21);
+            histogramEqualizationRadioBtn.Name = "histogramEqualizationRadioBtn";
+            histogramEqualizationRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            histogramEqualizationRadioBtn.Size = new Size(216, 26);
+            histogramEqualizationRadioBtn.TabIndex = 24;
+            histogramEqualizationRadioBtn.TabStop = true;
+            histogramEqualizationRadioBtn.Text = "Histogram Equalization";
+            histogramEqualizationRadioBtn.UnCheckedColor = Color.Black;
+            histogramEqualizationRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // rjRadioButton21
+            // pointDetectionRadioBtn
             // 
-            rjRadioButton21.AutoSize = true;
-            rjRadioButton21.CheckedColor = Color.Purple;
-            rjRadioButton21.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton21.ForeColor = Color.Black;
-            rjRadioButton21.Location = new Point(5, 369);
-            rjRadioButton21.MinimumSize = new Size(0, 21);
-            rjRadioButton21.Name = "rjRadioButton21";
-            rjRadioButton21.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton21.Size = new Size(156, 26);
-            rjRadioButton21.TabIndex = 30;
-            rjRadioButton21.TabStop = true;
-            rjRadioButton21.Text = "Point Detection";
-            rjRadioButton21.UnCheckedColor = Color.Black;
-            rjRadioButton21.UseVisualStyleBackColor = true;
-            rjRadioButton21.CheckedChanged += rjRadioButton21_CheckedChanged;
+            pointDetectionRadioBtn.AutoSize = true;
+            pointDetectionRadioBtn.CheckedColor = Color.Purple;
+            pointDetectionRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            pointDetectionRadioBtn.ForeColor = Color.Black;
+            pointDetectionRadioBtn.Location = new Point(5, 369);
+            pointDetectionRadioBtn.MinimumSize = new Size(0, 21);
+            pointDetectionRadioBtn.Name = "pointDetectionRadioBtn";
+            pointDetectionRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            pointDetectionRadioBtn.Size = new Size(156, 26);
+            pointDetectionRadioBtn.TabIndex = 30;
+            pointDetectionRadioBtn.TabStop = true;
+            pointDetectionRadioBtn.Text = "Point Detection";
+            pointDetectionRadioBtn.UnCheckedColor = Color.Black;
+            pointDetectionRadioBtn.UseVisualStyleBackColor = true;
+            pointDetectionRadioBtn.CheckedChanged += rjRadioButton21_CheckedChanged;
             // 
-            // rjRadioButton10
+            // butterWorthHighPassRadioBtn
             // 
-            rjRadioButton10.AutoSize = true;
-            rjRadioButton10.CheckedColor = Color.Purple;
-            rjRadioButton10.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            rjRadioButton10.ForeColor = Color.Black;
-            rjRadioButton10.Location = new Point(346, 400);
-            rjRadioButton10.MinimumSize = new Size(0, 21);
-            rjRadioButton10.Name = "rjRadioButton10";
-            rjRadioButton10.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton10.Size = new Size(266, 26);
-            rjRadioButton10.TabIndex = 13;
-            rjRadioButton10.TabStop = true;
-            rjRadioButton10.Text = "Butter Worth High Pass Filter";
-            rjRadioButton10.UnCheckedColor = Color.Black;
-            rjRadioButton10.UseVisualStyleBackColor = true;
-            rjRadioButton10.CheckedChanged += rjRadioButton10_CheckedChanged;
+            butterWorthHighPassRadioBtn.AutoSize = true;
+            butterWorthHighPassRadioBtn.CheckedColor = Color.Purple;
+            butterWorthHighPassRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            butterWorthHighPassRadioBtn.ForeColor = Color.Black;
+            butterWorthHighPassRadioBtn.Location = new Point(346, 397);
+            butterWorthHighPassRadioBtn.MinimumSize = new Size(0, 21);
+            butterWorthHighPassRadioBtn.Name = "butterWorthHighPassRadioBtn";
+            butterWorthHighPassRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            butterWorthHighPassRadioBtn.Size = new Size(266, 26);
+            butterWorthHighPassRadioBtn.TabIndex = 13;
+            butterWorthHighPassRadioBtn.TabStop = true;
+            butterWorthHighPassRadioBtn.Text = "Butter Worth High Pass Filter";
+            butterWorthHighPassRadioBtn.UnCheckedColor = Color.Black;
+            butterWorthHighPassRadioBtn.UseVisualStyleBackColor = true;
+            butterWorthHighPassRadioBtn.CheckedChanged += rjRadioButton10_CheckedChanged;
             // 
-            // lightenRedioBtn
+            // lightenRadioBtn
             // 
-            lightenRedioBtn.AutoSize = true;
-            lightenRedioBtn.CheckedColor = Color.Purple;
-            lightenRedioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            lightenRedioBtn.ForeColor = Color.Black;
-            lightenRedioBtn.Location = new Point(5, 236);
-            lightenRedioBtn.MinimumSize = new Size(0, 21);
-            lightenRedioBtn.Name = "lightenRedioBtn";
-            lightenRedioBtn.Padding = new Padding(10, 0, 0, 0);
-            lightenRedioBtn.Size = new Size(95, 26);
-            lightenRedioBtn.TabIndex = 23;
-            lightenRedioBtn.TabStop = true;
-            lightenRedioBtn.Text = "Lighten";
-            lightenRedioBtn.UnCheckedColor = Color.Black;
-            lightenRedioBtn.UseVisualStyleBackColor = true;
+            lightenRadioBtn.AutoSize = true;
+            lightenRadioBtn.CheckedColor = Color.Purple;
+            lightenRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            lightenRadioBtn.ForeColor = Color.Black;
+            lightenRadioBtn.Location = new Point(5, 236);
+            lightenRadioBtn.MinimumSize = new Size(0, 21);
+            lightenRadioBtn.Name = "lightenRadioBtn";
+            lightenRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            lightenRadioBtn.Size = new Size(95, 26);
+            lightenRadioBtn.TabIndex = 23;
+            lightenRadioBtn.TabStop = true;
+            lightenRadioBtn.Text = "Lighten";
+            lightenRadioBtn.UnCheckedColor = Color.Black;
+            lightenRadioBtn.UseVisualStyleBackColor = true;
             // 
             // darkenRadioBtn
             // 
@@ -748,144 +759,145 @@
             prewittFilterRadioBtn.UnCheckedColor = Color.Black;
             prewittFilterRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // RgbToGrayRediobtn
+            // rgbToGrayRadioBtn
             // 
-            RgbToGrayRediobtn.AutoSize = true;
-            RgbToGrayRediobtn.CheckedColor = Color.Purple;
-            RgbToGrayRediobtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            RgbToGrayRediobtn.ForeColor = Color.Black;
-            RgbToGrayRediobtn.Location = new Point(5, 132);
-            RgbToGrayRediobtn.MinimumSize = new Size(0, 21);
-            RgbToGrayRediobtn.Name = "RgbToGrayRediobtn";
-            RgbToGrayRediobtn.Padding = new Padding(10, 0, 0, 0);
-            RgbToGrayRediobtn.Size = new Size(133, 26);
-            RgbToGrayRediobtn.TabIndex = 18;
-            RgbToGrayRediobtn.TabStop = true;
-            RgbToGrayRediobtn.Text = "Rgb To Gray";
-            RgbToGrayRediobtn.UnCheckedColor = Color.Black;
-            RgbToGrayRediobtn.UseVisualStyleBackColor = true;
+            rgbToGrayRadioBtn.AutoSize = true;
+            rgbToGrayRadioBtn.CheckedColor = Color.Purple;
+            rgbToGrayRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            rgbToGrayRadioBtn.ForeColor = Color.Black;
+            rgbToGrayRadioBtn.Location = new Point(5, 132);
+            rgbToGrayRadioBtn.MinimumSize = new Size(0, 21);
+            rgbToGrayRadioBtn.Name = "rgbToGrayRadioBtn";
+            rgbToGrayRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            rgbToGrayRadioBtn.Size = new Size(133, 26);
+            rgbToGrayRadioBtn.TabIndex = 18;
+            rgbToGrayRadioBtn.TabStop = true;
+            rgbToGrayRadioBtn.Text = "Rgb To Gray";
+            rgbToGrayRadioBtn.UnCheckedColor = Color.Black;
+            rgbToGrayRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // CERadioBtn
+            // contrastStretchingRadioBtn
             // 
-            CERadioBtn.AutoSize = true;
-            CERadioBtn.CheckedColor = Color.Purple;
-            CERadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            CERadioBtn.ForeColor = Color.Black;
-            CERadioBtn.Location = new Point(6, 47);
-            CERadioBtn.MinimumSize = new Size(0, 21);
-            CERadioBtn.Name = "CERadioBtn";
-            CERadioBtn.Padding = new Padding(10, 0, 0, 0);
-            CERadioBtn.Size = new Size(183, 26);
-            CERadioBtn.TabIndex = 16;
-            CERadioBtn.TabStop = true;
-            CERadioBtn.Text = "Contrast Stretching";
-            CERadioBtn.UnCheckedColor = Color.Black;
-            CERadioBtn.UseVisualStyleBackColor = true;
-            CERadioBtn.CheckedChanged += CERadioBtn_CheckedChanged;
+            contrastStretchingRadioBtn.AutoSize = true;
+            contrastStretchingRadioBtn.CheckedColor = Color.Purple;
+            contrastStretchingRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            contrastStretchingRadioBtn.ForeColor = Color.Black;
+            contrastStretchingRadioBtn.Location = new Point(6, 47);
+            contrastStretchingRadioBtn.MinimumSize = new Size(0, 21);
+            contrastStretchingRadioBtn.Name = "contrastStretchingRadioBtn";
+            contrastStretchingRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            contrastStretchingRadioBtn.Size = new Size(183, 26);
+            contrastStretchingRadioBtn.TabIndex = 16;
+            contrastStretchingRadioBtn.TabStop = true;
+            contrastStretchingRadioBtn.Text = "Contrast Stretching";
+            contrastStretchingRadioBtn.UnCheckedColor = Color.Black;
+            contrastStretchingRadioBtn.UseVisualStyleBackColor = true;
+            contrastStretchingRadioBtn.CheckedChanged += CERadioBtn_CheckedChanged;
             // 
-            // LaplacianRadiobtn
+            // laplacianFilterRadioBtn
             // 
-            LaplacianRadiobtn.AutoSize = true;
-            LaplacianRadiobtn.CheckedColor = Color.Purple;
-            LaplacianRadiobtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            LaplacianRadiobtn.ForeColor = Color.Black;
-            LaplacianRadiobtn.Location = new Point(5, 75);
-            LaplacianRadiobtn.MinimumSize = new Size(0, 21);
-            LaplacianRadiobtn.Name = "LaplacianRadiobtn";
-            LaplacianRadiobtn.Padding = new Padding(10, 0, 0, 0);
-            LaplacianRadiobtn.Size = new Size(158, 26);
-            LaplacianRadiobtn.TabIndex = 15;
-            LaplacianRadiobtn.TabStop = true;
-            LaplacianRadiobtn.Text = "Laplacian Filter";
-            LaplacianRadiobtn.UnCheckedColor = Color.Black;
-            LaplacianRadiobtn.UseVisualStyleBackColor = true;
+            laplacianFilterRadioBtn.AutoSize = true;
+            laplacianFilterRadioBtn.CheckedColor = Color.Purple;
+            laplacianFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            laplacianFilterRadioBtn.ForeColor = Color.Black;
+            laplacianFilterRadioBtn.Location = new Point(5, 75);
+            laplacianFilterRadioBtn.MinimumSize = new Size(0, 21);
+            laplacianFilterRadioBtn.Name = "laplacianFilterRadioBtn";
+            laplacianFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            laplacianFilterRadioBtn.Size = new Size(158, 26);
+            laplacianFilterRadioBtn.TabIndex = 15;
+            laplacianFilterRadioBtn.TabStop = true;
+            laplacianFilterRadioBtn.Text = "Laplacian Filter";
+            laplacianFilterRadioBtn.UnCheckedColor = Color.Black;
+            laplacianFilterRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // GrayToBinaryRediobtn
+            // grayToBinaryRadioBtn
             // 
-            GrayToBinaryRediobtn.AutoSize = true;
-            GrayToBinaryRediobtn.CheckedColor = Color.Purple;
-            GrayToBinaryRediobtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            GrayToBinaryRediobtn.ForeColor = Color.Black;
-            GrayToBinaryRediobtn.Location = new Point(5, 103);
-            GrayToBinaryRediobtn.MinimumSize = new Size(0, 21);
-            GrayToBinaryRediobtn.Name = "GrayToBinaryRediobtn";
-            GrayToBinaryRediobtn.Padding = new Padding(10, 0, 0, 0);
-            GrayToBinaryRediobtn.Size = new Size(154, 26);
-            GrayToBinaryRediobtn.TabIndex = 14;
-            GrayToBinaryRediobtn.TabStop = true;
-            GrayToBinaryRediobtn.Text = "Gray To Binary";
-            GrayToBinaryRediobtn.UnCheckedColor = Color.Black;
-            GrayToBinaryRediobtn.UseVisualStyleBackColor = true;
+            grayToBinaryRadioBtn.AutoSize = true;
+            grayToBinaryRadioBtn.CheckedColor = Color.Purple;
+            grayToBinaryRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            grayToBinaryRadioBtn.ForeColor = Color.Black;
+            grayToBinaryRadioBtn.Location = new Point(5, 103);
+            grayToBinaryRadioBtn.MinimumSize = new Size(0, 21);
+            grayToBinaryRadioBtn.Name = "grayToBinaryRadioBtn";
+            grayToBinaryRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            grayToBinaryRadioBtn.Size = new Size(154, 26);
+            grayToBinaryRadioBtn.TabIndex = 14;
+            grayToBinaryRadioBtn.TabStop = true;
+            grayToBinaryRadioBtn.Text = "Gray To Binary";
+            grayToBinaryRadioBtn.UnCheckedColor = Color.Black;
+            grayToBinaryRadioBtn.UseVisualStyleBackColor = true;
+            grayToBinaryRadioBtn.CheckedChanged += GrayToBinaryRediobtn_CheckedChanged;
             // 
-            // meanRadioBtn
+            // meanFilterRadioBtn
             // 
-            meanRadioBtn.AutoSize = true;
-            meanRadioBtn.CheckedColor = Color.Purple;
-            meanRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            meanRadioBtn.ForeColor = Color.Black;
-            meanRadioBtn.Location = new Point(5, 315);
-            meanRadioBtn.MinimumSize = new Size(0, 21);
-            meanRadioBtn.Name = "meanRadioBtn";
-            meanRadioBtn.Padding = new Padding(10, 0, 0, 0);
-            meanRadioBtn.Size = new Size(224, 26);
-            meanRadioBtn.TabIndex = 13;
-            meanRadioBtn.TabStop = true;
-            meanRadioBtn.Text = "Mean Filter (Smoothing)";
-            meanRadioBtn.UnCheckedColor = Color.Black;
-            meanRadioBtn.UseVisualStyleBackColor = true;
+            meanFilterRadioBtn.AutoSize = true;
+            meanFilterRadioBtn.CheckedColor = Color.Purple;
+            meanFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            meanFilterRadioBtn.ForeColor = Color.Black;
+            meanFilterRadioBtn.Location = new Point(5, 315);
+            meanFilterRadioBtn.MinimumSize = new Size(0, 21);
+            meanFilterRadioBtn.Name = "meanFilterRadioBtn";
+            meanFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            meanFilterRadioBtn.Size = new Size(224, 26);
+            meanFilterRadioBtn.TabIndex = 13;
+            meanFilterRadioBtn.TabStop = true;
+            meanFilterRadioBtn.Text = "Mean Filter (Smoothing)";
+            meanFilterRadioBtn.UnCheckedColor = Color.Black;
+            meanFilterRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // medianRadioBtn
+            // medianFilterRadioBtn
             // 
-            medianRadioBtn.AutoSize = true;
-            medianRadioBtn.CheckedColor = Color.Purple;
-            medianRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            medianRadioBtn.ForeColor = Color.Black;
-            medianRadioBtn.Location = new Point(5, 287);
-            medianRadioBtn.MinimumSize = new Size(0, 21);
-            medianRadioBtn.Name = "medianRadioBtn";
-            medianRadioBtn.Padding = new Padding(10, 0, 0, 0);
-            medianRadioBtn.Size = new Size(272, 26);
-            medianRadioBtn.TabIndex = 12;
-            medianRadioBtn.TabStop = true;
-            medianRadioBtn.Text = "Median Filter (Noise Removal)";
-            medianRadioBtn.UnCheckedColor = Color.Black;
-            medianRadioBtn.UseVisualStyleBackColor = true;
-            medianRadioBtn.CheckedChanged += medianRadioBtn_CheckedChanged;
+            medianFilterRadioBtn.AutoSize = true;
+            medianFilterRadioBtn.CheckedColor = Color.Purple;
+            medianFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            medianFilterRadioBtn.ForeColor = Color.Black;
+            medianFilterRadioBtn.Location = new Point(5, 287);
+            medianFilterRadioBtn.MinimumSize = new Size(0, 21);
+            medianFilterRadioBtn.Name = "medianFilterRadioBtn";
+            medianFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            medianFilterRadioBtn.Size = new Size(272, 26);
+            medianFilterRadioBtn.TabIndex = 12;
+            medianFilterRadioBtn.TabStop = true;
+            medianFilterRadioBtn.Text = "Median Filter (Noise Removal)";
+            medianFilterRadioBtn.UnCheckedColor = Color.Black;
+            medianFilterRadioBtn.UseVisualStyleBackColor = true;
+            medianFilterRadioBtn.CheckedChanged += medianRadioBtn_CheckedChanged;
             // 
-            // blurGaussianRadioButton
+            // gaussianFilterRadioBtn
             // 
-            blurGaussianRadioButton.AutoSize = true;
-            blurGaussianRadioButton.CheckedColor = Color.Purple;
-            blurGaussianRadioButton.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            blurGaussianRadioButton.ForeColor = Color.Black;
-            blurGaussianRadioButton.Location = new Point(5, 157);
-            blurGaussianRadioButton.MinimumSize = new Size(0, 21);
-            blurGaussianRadioButton.Name = "blurGaussianRadioButton";
-            blurGaussianRadioButton.Padding = new Padding(10, 0, 0, 0);
-            blurGaussianRadioButton.Size = new Size(249, 26);
-            blurGaussianRadioButton.TabIndex = 11;
-            blurGaussianRadioButton.TabStop = true;
-            blurGaussianRadioButton.Text = "Gaussian Filter (Smoothing)";
-            blurGaussianRadioButton.UnCheckedColor = Color.Black;
-            blurGaussianRadioButton.UseVisualStyleBackColor = true;
+            gaussianFilterRadioBtn.AutoSize = true;
+            gaussianFilterRadioBtn.CheckedColor = Color.Purple;
+            gaussianFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            gaussianFilterRadioBtn.ForeColor = Color.Black;
+            gaussianFilterRadioBtn.Location = new Point(5, 157);
+            gaussianFilterRadioBtn.MinimumSize = new Size(0, 21);
+            gaussianFilterRadioBtn.Name = "gaussianFilterRadioBtn";
+            gaussianFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            gaussianFilterRadioBtn.Size = new Size(249, 26);
+            gaussianFilterRadioBtn.TabIndex = 11;
+            gaussianFilterRadioBtn.TabStop = true;
+            gaussianFilterRadioBtn.Text = "Gaussian Filter (Smoothing)";
+            gaussianFilterRadioBtn.UnCheckedColor = Color.Black;
+            gaussianFilterRadioBtn.UseVisualStyleBackColor = true;
             // 
-            // SobelFilterRadioBtn
+            // sobelFilterRadioBtn
             // 
-            SobelFilterRadioBtn.AutoSize = true;
-            SobelFilterRadioBtn.CheckedColor = Color.Purple;
-            SobelFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
-            SobelFilterRadioBtn.ForeColor = Color.Black;
-            SobelFilterRadioBtn.Location = new Point(4, 189);
-            SobelFilterRadioBtn.MinimumSize = new Size(0, 21);
-            SobelFilterRadioBtn.Name = "SobelFilterRadioBtn";
-            SobelFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
-            SobelFilterRadioBtn.Size = new Size(258, 26);
-            SobelFilterRadioBtn.TabIndex = 10;
-            SobelFilterRadioBtn.TabStop = true;
-            SobelFilterRadioBtn.Text = "Sobel Filter (Edge Detection)";
-            SobelFilterRadioBtn.UnCheckedColor = Color.Black;
-            SobelFilterRadioBtn.UseVisualStyleBackColor = true;
-            SobelFilterRadioBtn.CheckedChanged += SobelFilterRadioBtn_CheckedChanged;
+            sobelFilterRadioBtn.AutoSize = true;
+            sobelFilterRadioBtn.CheckedColor = Color.Purple;
+            sobelFilterRadioBtn.Font = new Font("Sylfaen", 12F, FontStyle.Bold);
+            sobelFilterRadioBtn.ForeColor = Color.Black;
+            sobelFilterRadioBtn.Location = new Point(4, 189);
+            sobelFilterRadioBtn.MinimumSize = new Size(0, 21);
+            sobelFilterRadioBtn.Name = "sobelFilterRadioBtn";
+            sobelFilterRadioBtn.Padding = new Padding(10, 0, 0, 0);
+            sobelFilterRadioBtn.Size = new Size(258, 26);
+            sobelFilterRadioBtn.TabIndex = 10;
+            sobelFilterRadioBtn.TabStop = true;
+            sobelFilterRadioBtn.Text = "Sobel Filter (Edge Detection)";
+            sobelFilterRadioBtn.UnCheckedColor = Color.Black;
+            sobelFilterRadioBtn.UseVisualStyleBackColor = true;
+            sobelFilterRadioBtn.CheckedChanged += SobelFilterRadioBtn_CheckedChanged;
             // 
             // panel1
             // 
@@ -894,27 +906,16 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(657, 762);
+            panel1.Size = new Size(657, 749);
             panel1.TabIndex = 5;
             panel1.Paint += panel1_Paint;
-            // 
-            // button3
-            // 
-            button3.Font = new Font("Stencil", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(1, 706);
-            button3.Name = "button3";
-            button3.Size = new Size(626, 55);
-            button3.TabIndex = 16;
-            button3.Text = "Apply Filter ";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += Apply_Filter;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
-            ClientSize = new Size(1427, 762);
+            ClientSize = new Size(1427, 749);
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -939,48 +940,48 @@
         private Button button4;
         private GroupBox groupBox1;
         private TextBox textBox1;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton2;
+        private CustomControls.RJControls.RJRadioButton idealLowPassRadioBtn;
         private TextBox imagePath;
         private Button btnImport;
         private Button button1;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton4;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton3;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton1;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton16;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton15;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton14;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton13;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton11;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton18;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton19;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton6;
+        private CustomControls.RJControls.RJRadioButton butterWorthLowPassRadioBtn;
+        private CustomControls.RJControls.RJRadioButton idealHighPassRadioBtn;
+        private CustomControls.RJControls.RJRadioButton maxFilterRadioBtn;
+        private CustomControls.RJControls.RJRadioButton gaussianLowPassRadioBtn;
+        private CustomControls.RJControls.RJRadioButton gaussianHighPassRadioBtn;
+        private CustomControls.RJControls.RJRadioButton saltPepperNoiseRadioBtn;
+        private CustomControls.RJControls.RJRadioButton inverseFourierRadioBtn;
+        private CustomControls.RJControls.RJRadioButton fourierTransformRadioBtn;
+        private CustomControls.RJControls.RJRadioButton pointSharpeningRadioBtn;
+        private CustomControls.RJControls.RJRadioButton lineSharpeningRadioBtn;
+        private CustomControls.RJControls.RJRadioButton gammaCorrectionRadioBtn;
         private CustomControls.RJControls.RJRadioButton rjRadioButton12;
         private CustomControls.RJControls.RJRadioButton rjRadioButton5;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton9;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton8;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton7;
-        private CustomControls.RJControls.RJRadioButton lowPassRadioBtn;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton17;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton20;
-        private CustomControls.RJControls.RJRadioButton HERadioBtn;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton21;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton10;
-        private CustomControls.RJControls.RJRadioButton lightenRedioBtn;
+        private CustomControls.RJControls.RJRadioButton logTransformRadioBtn;
+        private CustomControls.RJControls.RJRadioButton histogramRadioBtn;
+        private CustomControls.RJControls.RJRadioButton negativeRadioBtn;
+        private CustomControls.RJControls.RJRadioButton weightFilterRadioBtn;
+        private CustomControls.RJControls.RJRadioButton rayleighNoiseRadioBtn;
+        private CustomControls.RJControls.RJRadioButton minFilterRadioBtn;
+        private CustomControls.RJControls.RJRadioButton histogramEqualizationRadioBtn;
+        private CustomControls.RJControls.RJRadioButton pointDetectionRadioBtn;
+        private CustomControls.RJControls.RJRadioButton butterWorthHighPassRadioBtn;
+        private CustomControls.RJControls.RJRadioButton lightenRadioBtn;
         private CustomControls.RJControls.RJRadioButton darkenRadioBtn;
         private CustomControls.RJControls.RJRadioButton prewittFilterRadioBtn;
-        private CustomControls.RJControls.RJRadioButton RgbToGrayRediobtn;
-        private CustomControls.RJControls.RJRadioButton CERadioBtn;
-        private CustomControls.RJControls.RJRadioButton LaplacianRadiobtn;
-        private CustomControls.RJControls.RJRadioButton GrayToBinaryRediobtn;
-        private CustomControls.RJControls.RJRadioButton meanRadioBtn;
-        private CustomControls.RJControls.RJRadioButton medianRadioBtn;
-        private CustomControls.RJControls.RJRadioButton blurGaussianRadioButton;
-        private CustomControls.RJControls.RJRadioButton SobelFilterRadioBtn;
+        private CustomControls.RJControls.RJRadioButton rgbToGrayRadioBtn;
+        private CustomControls.RJControls.RJRadioButton contrastStretchingRadioBtn;
+        private CustomControls.RJControls.RJRadioButton laplacianFilterRadioBtn;
+        private CustomControls.RJControls.RJRadioButton grayToBinaryRadioBtn;
+        private CustomControls.RJControls.RJRadioButton meanFilterRadioBtn;
+        private CustomControls.RJControls.RJRadioButton medianFilterRadioBtn;
+        private CustomControls.RJControls.RJRadioButton gaussianFilterRadioBtn;
+        private CustomControls.RJControls.RJRadioButton sobelFilterRadioBtn;
         private Panel panel1;
         private Button button3;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton22;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton23;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton24;
-        private CustomControls.RJControls.RJRadioButton rjRadioButton25;
+        private CustomControls.RJControls.RJRadioButton gammaNoiseRadioBtn;
+        private CustomControls.RJControls.RJRadioButton exponentialNoiseRadioBtn;
+        private CustomControls.RJControls.RJRadioButton uniformNoiseRadioBtn;
+        private CustomControls.RJControls.RJRadioButton gaussianNoiseRadioBtn;
     }
 }
